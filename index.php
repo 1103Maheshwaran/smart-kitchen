@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>smart kitchen site</title>
+<!--
+Ocean Theme
+http://www.templatemo.com/tm-484-ocean
+-->
+
+    <!-- load stylesheets -->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"><!-- Google web font "Open Sans", https://www.google.com/fonts/specimen/Open+Sans -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"> <!-- Font Awesome, https://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                       <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/templatemo-style.css">                    <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
+
+    <body>
+
+        <div class="container-fluid">
+            
+            <div class="row"> 
+
+                <section class="tm-section-intro">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="tm-wrapper-center">
+                            <h1 class="tm-section-intro-title">Smart Kitchen</h1>
+                            // <p class="tm-section-intro-text">IOT Kitchen Automation<br>
+                            By TARP Technologies Pvt Ltd
+                            </p>
+                            <a href="#tm-section-2" class="tm-btn-white-big">see kitchen</a>
+                        </div>            
+                    </div>
+                </section>    
+
+            </div>
+
+
+            <div class="row" id="tm-section-2">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                    <!-- slider -->
+                    <section>
+                        <div id="tmCarousel" class="carousel slide tm-carousel" data-ride="carousel", data-interval="3000">  <!-- If you want to make the carousel auto play, remove data-interval="false" -->
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#tmCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#tmCarousel" data-slide-to="1" class=""></li>
+                                <li data-target="#tmCarousel" data-slide-to="2" class=""></li>
+                            </ol>
+
+                            <div class="carousel-inner" role="listbox">
+                            
+                                <div class="carousel-item active">
+                                    <div class="carousel-content">
+                                        <div>
+                                            <h2 class="tm-carousel-item-title">Introduction to Smart Kitchen</h2>
+                                            <p class="tm-carousel-item-text">Smart Kitchen is an IOt based kitchen project to reduce<br> the work load for the people working <br>in kitchen</p>
+                                        </div>
+                                    </div>                               
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div>
+                                            <h2 class="tm-carousel-item-title">Abstract </h2>
+                                            <p class="tm-carousel-item-text">The Project Aims at developing an IOt platform to record ananlyde and notify<br> people regarding their diet and aldo enables automatic purchace<br> through their prefered vendor via mail or message</p>
+                                        </div>
+                                    </div>                                
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div>
+                                            <h2 class="tm-carousel-item-title">Features</h2>
+                                            <p class="tm-carousel-item-text">IOt based platform enables friendly extension to analyse further kitchen commodities. <br>Saperate mailer script also helps <br>automatic purchase of commodities through prefered vendor</p>
+                                        </div>
+                                    </div>                                
+                                </div>
+
+                            </div>
+                            
+                        </div>                    
+                    </section>
+                </div>
+            </div> <!-- row -->
+
+
+
+
+
+<h1><center>Kitchen Monitering</center></h1>
+
+
+
+
+
+
+
+
+
+            <div class="row">
+                
+                <section class="tm-2-col-img-text tm-2-col-img-lg-right">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
+                        <img src="img/drinkingwater.jpg" alt="Image" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                        <h2 class="tm-2-col-text-title">Water Monitering</h2>
+                        <p class="tm-2-col-text-description">
+                            water is essential for life the below icon sends a mail to the customer notifing him how much water he has drunk lately in the form of csv file.
+                        </p>
+			<form method="POST" action="mailer.php">
+                        <button type="submit"><a href="#" class="tm-bordered-btn">Water</a></button>
+			<input type="hidden" value="water" name="content">			
+			</form>
+                    </div>
+                    
+                </section>
+
+            </div> <!-- row -->
+
+
+
+
+            <div class="row">
+                
+                <section class="tm-2-col-img-text tm-2-col-img-lg-left">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
+                        <img src="img/edibleoil.jpg" alt="Image" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                        <h2 class="tm-2-col-text-title">Oil Monitering</h2>
+                        <p class="tm-2-col-text-description">
+                            Oil in limited quantity is essential as well
+                            as good for health.Oil keeps our skin young and 
+                            healthy. But too much consumption of oil is also
+                            not good for health.But you need not worry about 
+                            that as we keep track of it.
+                        </p>
+                        <div class="left">
+							<form method="POST" action="mailer.php">
+                        		<button type="submit"><a href="#" class="tm-bordered-btn">Oil</a></button>
+								<input type="hidden" value="oil" name="content">			
+							</form>
+						</div>
+						<div class="right">
+							<a href="#" class="tm-bordered-btn">Sugar</a>
+						</div>
+                    </div>
+                    
+                </section>
+
+            </div> <!-- row -->
+
+
+
+<!--Test From here-->
+
+ <div class="row">
+                
+                <section class="tm-2-col-img-text tm-2-col-img-lg-right">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
+                        <img src="img/sugar.jpg" alt="Image" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                        <h2 class="tm-2-col-text-title">Sugar Monitering</h2>
+                        <p class="tm-2-col-text-description">
+                            
+                            High intake of sugar is root for diabetese. But sugar is an essential 
+                            ingredient in foods ,sweets and savouries to enhance their 
+                            tastes.But you need not worry about that as we keep track of 
+                            the amount of sugar u=you intake and we promptly allet you for the same.
+                        </p>
+                        <a href="#" class="tm-bordered-btn">Sugar</a>
+                    </div>
+                    
+                </section>
+
+            </div> <!-- row -->
+
+
+
+
+            <div class="row">
+                
+                <section class="tm-2-col-img-text tm-2-col-img-lg-left">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
+                        <img src="img/salt.jpg" alt="Image" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                        <h2 class="tm-2-col-text-title">Salt monitering</h2>
+                        <p class="tm-2-col-text-description">
+                            dddddddddddddddddddddddddddddddddddddd
+                            dddddddddddddddddddddddddddddddddddddd
+                            dddddddddddddddddddddddddddddddddddddd
+                            dddddddddddddddddddddddddddddddddddddd
+                            dddddddddddddddddddddddddddddddddddddd
+                        </p>
+                        <a href="#" class="tm-bordered-btn">Salt</a>
+                    </div>
+                    
+                </section>
+
+            </div> <!-- row -->
+
+
+
+
+
+
+<===Test ends here====>
+
+
+
+
+<===Test From here=====>
+
+ <div class="row">
+                
+                <section class="tm-2-col-img-text tm-2-col-img-lg-right">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
+                        <img src="img/pulses.jpg" alt="Image" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                        <h2 class="tm-2-col-text-title">Pulses Monitering</h2>
+                        <p class="tm-2-col-text-description">
+                            
+                            eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                            eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                            eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                            eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                            eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                        </p>
+                        <a href="#" class="tm-bordered-btn">Pulses</a>
+                    </div>
+                    
+                </section>
+
+            </div> <!-- row -->
+
+
+
+
+            <div class="row">
+                
+                <section class="tm-2-col-img-text tm-2-col-img-lg-left">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
+                        <img src="img/cerials.jpg" alt="Image" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                        <h2 class="tm-2-col-text-title">Cerials monitering</h2>
+                        <p class="tm-2-col-text-description">
+                            fffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                            fffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                            fffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                            fffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                            fffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                        </p>
+                        <a href="#" class="tm-bordered-btn">Serials</a>
+                    </div>
+                    
+                </section>
+
+            </div> <!-- row -->
+
+
+
+
+
+
+<===Test ends here====>
+
+
+
+
+
+
+
+
+            <!-- About -->
+            <div class="row tm-section tm-blue-bg-row">
+                
+                <section>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-xs-center">
+                            <h2 class="tm-section-title">About our Project</h2>
+                            <p class="tm-section-subtitle">
+                            The project is carried under the guidance of mam
+                            </p>    
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            
+                            <div class="tm-icon-text-boxes-container">
+                            
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                                    <div class="tm-icon-text-box">
+                                        <i class="fa fa-5x fa-mixcloud"></i>
+                                        <h3 class="tm-icon-text-box-title">Iot Discription</h3>
+                                        <p class="tm-icon-text-box-description">Data from sensor is transmitted via wifi to clowd and frm there to site</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                                    <div class="tm-icon-text-box">
+                                        <i class="fa fa-5x fa-line-chart"></i>
+                                        <h3 class="tm-icon-text-box-title">Timeline</h3>
+                                        <p class="tm-icon-text-box-description">Review 1: aaaaaaaaaaaaaaaaaa Review 2: ssssssssssssssssssss Review 3: dddddddddddd</p>
+                                    </div>
+                                </div>
+
+
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                                    <div class="tm-icon-text-box">
+                                        <i class="fa fa-5x fa-globe"></i>
+                                        <h3 class="tm-icon-text-box-title">Project Scope</h3>
+                                        <p class="tm-icon-text-box-description">Each person should have his own server as the amount of data flowing through a server will become huge if 2 or more people share the same server</p>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                                    <div class="tm-icon-text-box">
+                                        <i class="fa fa-5x fa-group"></i>
+                                        <h3 class="tm-icon-text-box-title">Team Members</h3>
+                                        <p class="tm-icon-text-box-description">MAhesh <br>rahul<br> adithya<br> sagar1 <br>sagar2<br> dobrial<br>mayank</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                </section>
+
+            </div> <!-- row -->
+
+            <div class="row tm-section">
+                
+                <section class="tm-section-contact">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-xs-center">
+                        
+                        <h2 class="tm-section-title">Any Issues? Contact Us</h2>
+                        <p class="tm-section-subtitle">You can contact any member of our tarp team to clarify your doubt regarding smart Kitchen</p>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                        <form action="index.html" method="post" class="tm-contact-form">                                
+                            <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-form-group-left">
+                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-form-group-right">
+                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                            </div>
+                        
+                            <button type="submit" class="btn tm-bordered-btn pull-xs-right">Submit</button>                          
+                        </form>   
+                    </div> <!-- col -->
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 tm-contact-right">
+                        <h3 class="tm-contact-title">Our Address</h3>
+                        <p class="tm-contact-info">Kelambakkam<br>
+                            VIT Chennai
+                        </p>
+                        <p class="tm-contact-info"> 
+                            Email: <a href="mailto:sgrsnh76@gmail.com">My mail id</a><br>
+                            
+                        </p>
+                        <p class="tm-contact-info">
+                            Phone: <a href="tel:8056191459">Click to call me</a>
+                        </p>
+                        <div class="tm-social-icons-container">
+                            <a href="#" class="tm-social-icon-link"><i class="fa fa-facebook tm-social-icon"></i></a>
+                            <a href="#" class="tm-social-icon-link"><i class="fa fa-google-plus tm-social-icon"></i></a>
+                            <a href="#" class="tm-social-icon-link"><i class="fa fa-twitter tm-social-icon"></i></a>
+                            <a href="#" class="tm-social-icon-link"><i class="fa fa-behance tm-social-icon"></i></a>
+                            <a href="#" class="tm-social-icon-link"><i class="fa fa-linkedin tm-social-icon"></i></a>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <div class="row">                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">                    
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <p class="text-xs-center tm-copyright-text">Copyright &copy; 2018 Team Tarp</p>
+                </div>
+            </div>
+            
+        </div> <!-- container-fluid -->   
+
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery, https://jquery.com/download/ -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h -->
+        <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap, http://v4-alpha.getbootstrap.com/ -->
+        <script src="js/jquery.touchSwipe.min.js"></script>         <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ -->
+        
+        <script>     
+       
+            $(document).ready(function(){
+
+                /* Smooth Scrolling
+                 * https://css-tricks.com/snippets/jquery/smooth-scrolling/
+                --------------------------------------------------------------*/
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                        && location.hostname == this.hostname) {
+                        
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                        
+                        if (target.length) {
+                            
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                }); 
+                
+                /* Enable swiping for tablets and mobile
+                 * http://lazcreative.com/blog/adding-swipe-support-to-bootstrap-carousel-3-0/
+                 ---------------------------------------------------------------------------------*/
+                if($(window).width() <= 991) {
+                    $(".carousel-inner").swipe( {
+                        //Generic swipe handler for all directions
+                        swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                            $(this).parent().carousel('next'); 
+                        },
+                        swipeRight: function() {
+                            $(this).parent().carousel('prev'); 
+                        },
+                        //Default is 75px, set to 0 for demo so any distance triggers swipe
+                        threshold:0
+                    });
+                }  
+
+                /* Handle window resize */
+                $(window).resize(function(){
+                    if($(window).width() <= 991) {
+                        $(".carousel-inner").swipe( {
+                            //Generic swipe handler for all directions
+                            swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                                $(this).parent().carousel('next'); 
+                            },
+                            swipeRight: function() {
+                                $(this).parent().carousel('prev'); 
+                            },
+                            //Default is 75px, set to 0 for demo so any distance triggers swipe
+                            threshold:0
+                        });
+                     }
+                });              
+                           
+            });
+
+        </script>             
+
+</body>
+</html>
